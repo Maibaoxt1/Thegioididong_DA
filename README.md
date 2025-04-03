@@ -11,10 +11,16 @@ Dự án này nhằm thu thập, xử lý và phân tích dữ liệu sản ph�
 ### 1. **Thu thập dữ liệu**
 - Sử dụng **Selenium** để crawl thông tin sản phẩm từ website:
   - Tên sản phẩm
+  - Thương hiệu
   - Giá bán
-  - Hãng sản xuất
+  - Link hình ảnh sản phẩm
+  - Link sản phẩm
+  - Độ phân giải
+  - Kích thước
   - Cấu hình (RAM, ROM, CPU, v.v.)
   - Đánh giá (nếu có)
+  - Lượt bán
+  - Giảm giá
 
 ### 2. **Làm sạch & xử lý dữ liệu**
 - Xử lý định dạng giá, cấu hình.
@@ -23,8 +29,7 @@ Dự án này nhằm thu thập, xử lý và phân tích dữ liệu sản ph�
 
 ### 3. **Phân tích dữ liệu**
 - Thống kê theo hãng, phân khúc giá, cấu hình phổ biến.
-- So sánh mức giá trung bình giữa các hãng.
-- Phân tích mối quan hệ giữa giá và cấu hình sản phẩm.
+- Phân tích mối quan hệ giữa lượt bán và các thông tin khác có sự tương quan.
 
 ### 4. **Trình bày kết quả**
 - Tạo **dashboard bằng Power BI** với các biểu đồ:
