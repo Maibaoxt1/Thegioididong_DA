@@ -33,10 +33,10 @@ Dự án này nhằm thu thập, xử lý và phân tích dữ liệu sản ph�
 
 ### 4. **Trình bày kết quả**
 - Tạo **dashboard bằng Power BI** với các biểu đồ:
-  - Số lượng sản phẩm theo hãng
-  - Phân phối giá
-  - Tương quan giữa RAM/ROM và giá
-  - Top sản phẩm theo đánh giá
+🔗 [Xem Dashboard Power BI tại đây](https://app.powerbi.com/groups/me/reports/bb4235ba-440f-427a-80ed-0b09beb5dfc5/3972d06ffedf2972490a?experience=power-bi)
+
+🔗 [Xem Dashboard Power BI tại đây](Thegioididong/Laptop/PowerBI/PowerBI_laptop.pdf)
+
 
 ---
 
