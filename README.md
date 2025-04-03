@@ -33,9 +33,10 @@ Dự án này nhằm thu thập, xử lý và phân tích dữ liệu sản ph�
 
 ### 4. **Trình bày kết quả**
 - Tạo **dashboard bằng Power BI** với các biểu đồ:
+
 🔗 [Xem Dashboard Power BI tại đây](https://app.powerbi.com/groups/me/reports/bb4235ba-440f-427a-80ed-0b09beb5dfc5/3972d06ffedf2972490a?experience=power-bi)
 
-🔗 [Xem Dashboard Power BI tại đây](Thegioididong/Laptop/PowerBI/PowerBI_laptop.pdf)
+🔗 [Xem Dashboard Power BI Laptop PDF](Thegioididong/Laptop/PowerBI/PowerBI_laptop.pdf)
 
 
 ---
@@ -46,7 +47,6 @@ Dự án này nhằm thu thập, xử lý và phân tích dữ liệu sản ph�
 |--------|-------|
 | **Python** | Ngôn ngữ chính |
 | **Selenium** | Web scraping |
-| **Pandas** | Xử lý và phân tích dữ liệu |
 | **Power BI** | Trực quan hóa dữ liệu |
 
 ---
@@ -54,8 +54,30 @@ Dự án này nhằm thu thập, xử lý và phân tích dữ liệu sản ph�
 ## 📁 Cấu trúc thư mục
 
 ```bash
-├── scraping/               # Mã nguồn thu thập dữ liệu bằng Selenium
-├── data/                   # Dữ liệu thô và dữ liệu sau xử lý
-├── analysis/               # Notebook xử lý và phân tích
-├── dashboard/              # File .pbix của Power BI
-└── README.md
+Thegioididong/
+│
+├── Laptop/
+│   ├── Data/
+│   │   ├── laptopProduct.csv
+│   │   └── cleanedLaptopData.csv
+│   ├── Notebooks/
+│   │   ├── CleanLaptopData.ipynb
+│   │   └── LaptopAnalyst.ipynb
+│   ├── PowerBI/
+│   │   ├── PowerBI_laptop.pbix
+│   │   └── PowerBI_laptop.pdf
+│   └── SourceCode/
+│       └── crawlLaptopData.py
+│
+├── Phone/
+│   ├── Data/
+│   │   ├── phoneProduct.csv
+│   │   └── cleanedPhoneData.csv
+│   ├── Notebooks/
+│   │   ├── CleanDataPhone.ipynb
+│   │   └── PhoneAnalyst.ipynb
+│   ├── PowerBI/
+│   │   ├── PowerBI_phone.pbix
+│   │   └── PowerBI_phone.pdf
+│   └── SourceCode/
+│       └── crawlProduct.py
